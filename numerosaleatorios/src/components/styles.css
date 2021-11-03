@@ -1,0 +1,39 @@
+.Number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: aliceblue;
+  width: 220px;
+  height: 120px;
+  font-size: 70px;
+  background-color: black;
+  background-size: 100%;
+  font-family: "Bebas Neue", cursive;
+  margin: 30px;
+  text-shadow: -2px 2px 3px rgb(173, 0, 0), 2px -2px 3px rgb(0, 186, 199);
+  border: 10px ridge rgb(99, 99, 99);
+  box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.69);
+}
+
+button {
+  border-radius: 15px;
+  height: 39px;
+  width: 39px;
+  border: black 1px solid;
+  color: #f1f1f1;
+  cursor: pointer;
+  background-color: black;
+  background-size: 100%;
+}
+
+button:hover {
+  text-shadow: -1px 1px 2px rgb(78, 0, 0), 1px -1px 2px rgb(0, 146, 156);
+  filter: brightness(1.5);
+  color: #f1f1f1;
+  cursor: pointer;
+  background-color: black;
+  background-size: 100%;
+}
